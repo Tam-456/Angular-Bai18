@@ -1,9 +1,10 @@
 # BÀI TẬP THỰC HÀNH ANGULAR
 
-## Bài nộp: Bài 13 - Json Array Model – Product Event
-- **Component danh sách:** `src/app/service-product-image-event`
-- **Component chi tiết:** `src/app/service-product-image-event-detail`
-- **Service dữ liệu:** `src/app/Service/product-service.ts`
+## Bài 18 - Json Array Model – Group Customers
+- **Component hiển thị:** `src/app/group-customer`
+- **Service xử lý Http:** `src/app/services/customer.service.ts`
+- **File dữ liệu JSON:** `public/datasets/customers.json`
+- **Đường dẫn truy cập:** `/group-customer`
 
 # MyApp
 
