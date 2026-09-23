@@ -1,0 +1,33 @@
+<div style="margin: 20px;">
+  <table border="1" style="border-collapse: collapse; text-align: center; width: 650px;">
+    <thead style="background-color: #f7f7f7;">
+      <tr>
+        <th style="width: 15%;">Id</th>
+        <th style="width: 25%;">Name</th>
+        <th style="width: 30%;">Email</th>
+        <th style="width: 10%;">Age</th>
+        <th style="width: 20%;">#</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (group of customerGroups; track group.CustomerTypeId) {
+        <tr style="background-color: #e9ecef; font-weight: bold; text-align: left;">
+          <td colspan="5" style="padding: 8px 12px;">
+            {{ group.CustomerTypeId }} - {{ group.CustomterTypeName }}
+          </td>
+        </tr>
+        @for (cus of group.Customers; track cus.Id) {
+          <tr>
+            <td>{{ cus.Id }}</td>
+            <td>{{ cus.Name }}</td>
+            <td>{{ cus.Email }}</td>
+            <td>{{ cus.Age }}</td>
+            <td>
+              <img [src]="cus.Image" [alt]="cus.Name" width="80" height="90" style="object-fit: cover; display: block; margin: 4px auto;" />
+            </td>
+          </tr>
+        }
+      }
+    </tbody>
+  </table>
+</div>

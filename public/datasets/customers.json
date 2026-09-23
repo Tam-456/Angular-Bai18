@@ -1,0 +1,49 @@
+[
+  {
+    "CustomerTypeId": 1,
+    "CustomterTypeName": "VIP",
+    "Customers": [
+      {
+        "Id": "Cus123",
+        "Name": "Obama",
+        "Email": "obama@gmail.com",
+        "Age": 67,
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg"
+      },
+      {
+        "Id": "Cus456",
+        "Name": "Kim jong Un",
+        "Email": "unun@gmail.com",
+        "Age": 38,
+        "Image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRJPlZnIYd0EVrWf63p5iMW4sKbEFrECicT_xCllfpkCmONiom1Oe1JubysGnaVSvI-_HmSs9jTc-tbfZOP4weIGdR05owzjLYJ_aatxWKcQg&s=19"
+      },
+      {
+        "Id": "Cus789",
+        "Name": "Putin",
+        "Email": "putin@gmail.com",
+        "Age": 77,
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKYBA6WT_TNl7ddxpixhtd4FNDrVjd1uSpLlxigu_eoM-ydX2L4tswvXe3KBflaspJudf_ZphY&s=10"
+      }
+    ]
+  },
+  {
+    "CustomerTypeId": 2,
+    "CustomterTypeName": "Normal",
+    "Customers": [
+      {
+        "Id": "Cus000",
+        "Name": "Hồ Cẩm Đào",
+        "Email": "hodao@gmail.com",
+        "Age": 16,
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9Mn-DnZRFQk70a_cYeHdCd-saNO0-ZMdve6gPjFzNbBIxbMlyt4N3U5p1XOjksP51tiEKRTW&s=10"
+      },
+      {
+        "Id": "Cus111",
+        "Name": "Tập Cận Bình",
+        "Email": "binhbinh@gmail.com",
+        "Age": 67,
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX2xSb1JzwEQienzaLtWJa4NMDFXC7cdG9dzqlmBWsaA&s"
+      }
+    ]
+  }
+]
